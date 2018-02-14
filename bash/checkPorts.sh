@@ -20,7 +20,7 @@ if [ -z $host ] || [ -z $ports ] ; then usage ; fi
 # Iterate through ports and check if they are open
 for port in "${ports[@]}"
   do
-    results+=`nc -w5 -z $host $port`
+    results+=`nc -w5 -v -z $host $port`
   done
 
 echo $results
