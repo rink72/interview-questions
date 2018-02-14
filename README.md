@@ -107,18 +107,23 @@ Get-InstalledApplications | Format-Table -AutoSize -Property Name, Caption, Vers
 ### Bash
 
 Task 1 - 1 hour
+
 Task 2 - 45 minutes
+
 Task 3 - 45 minutes
 
 ### Python
 
 Task 1 - 1 hour
+
 Task 2 - 1 hour
 
 ### PowerShell
 
 Task 1 - 45 minutes
+
 Task 2 - 15 minutes
+
 Task 3 - 10 minutes
 
 
