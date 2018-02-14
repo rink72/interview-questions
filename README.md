@@ -32,7 +32,7 @@ insertLineString.sh is for task three.
 
 ### Python
 
-There are there files in this folder. Two for task one and one for task two.
+There are three files in this folder. Two for task one and one for task two.
 These were all written in Python 3.6. I have the Anaconda install on my PC and any
 modules I used in these scripts were available but I cannot be sure they are standard
 for all installs.
