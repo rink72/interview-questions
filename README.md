@@ -12,6 +12,9 @@ There are three files in this folder. One for each of the tasks.
 Each command will have some very basic help if input parameters are incorrect.
 
 checkPorts.sh is for task one.
+One thing to note is that this was written for the default version of netcat
+available in Ubuntu 14. I tested it on a RedHat 7 machine and that version
+does not have the same parameters and will fail.
 
 ```
 ./checkPorts.sh -h localhost -p 80
