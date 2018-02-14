@@ -82,9 +82,9 @@ Send-Command -ComputerName AnotherComputer -User 'domain.local\joe' -Password 'G
 
 For task two, you can use the following syntax to run it.
 
-	This will save event logs from the specified event log to a file.
-    Files are saved in CSV format.
-    The default log used is the Application log but you can use Application, System or Security.
+This will save event logs from the specified event log to a file.
+Files are saved in CSV format.
+The default log used is the Application log but you can use Application, System or Security.
 
 ```
 Save-EventLog -File 'C:\temp\events.csv'
