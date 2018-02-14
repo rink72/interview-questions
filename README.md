@@ -95,8 +95,8 @@ Save-EventLog -File 'C:\temp\events.csv' -LogType System
 For task three, you can use
 
 ```
-    Get-InstalledApplications
-    Get-InstalledApplications | Out-GridView
-    Get-InstalledApplications | Format-Table -AutoSize -Property Name, Caption, Version, Vendor
+Get-InstalledApplications
+Get-InstalledApplications | Out-GridView
+Get-InstalledApplications | Format-Table -AutoSize -Property Name, Caption, Version, Vendor
 ```
 
